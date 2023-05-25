@@ -1,14 +1,15 @@
-package com.sky.basic.service;
+package com.basic.service;
 
 import java.util.HashMap;
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
+
+import com.basic.entity.BasicOperationsEntity;
+import com.basic.model.BasicOperationsRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.http.ResponseEntity;
-import com.sky.basic.entity.BasicOperationsEntity;
-import com.sky.basic.model.BasicOperationsRequest;
-import com.sky.basic.repository.BasicOperationsRepository;
+import com.basic.repository.BasicOperationsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Service

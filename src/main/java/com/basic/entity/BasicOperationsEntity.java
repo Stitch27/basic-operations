@@ -1,4 +1,4 @@
-package com.sky.basic.entity;
+package com.basic.entity;
 
 import lombok.*;
 import javax.persistence.*;

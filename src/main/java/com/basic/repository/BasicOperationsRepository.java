@@ -1,8 +1,9 @@
-package com.sky.basic.repository;
+package com.basic.repository;
 
 import javax.transaction.Transactional;
+
+import com.basic.entity.BasicOperationsEntity;
 import org.springframework.stereotype.Repository;
-import com.sky.basic.entity.BasicOperationsEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository

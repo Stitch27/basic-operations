@@ -1,9 +1,9 @@
-package com.sky.basic.controller;
+package com.basic.controller;
 
+import com.basic.model.BasicOperationsRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.sky.basic.model.BasicOperationsRequest;
-import com.sky.basic.service.BasicOperationsService;
+import com.basic.service.BasicOperationsService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
